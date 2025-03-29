@@ -1,3 +1,8 @@
+<?php
+if (isset($_POST['submit'])) {
+    echo 'Changes saved successfully!!!';
+} else {
+?>
 <html>
     <head>
         <title>Sign Up</title>
@@ -71,3 +76,6 @@
     </div>
     </body>
 </html>
+<?php
+}
+?>
