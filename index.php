@@ -2,6 +2,10 @@
     <head>
         <title>Sign Up</title>
         <style>
+            body{
+                background-color: black;
+                color: white;
+            }
             .container {
                 width: 1080px;
                 padding: 20px;
